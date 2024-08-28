@@ -69,7 +69,7 @@ border-radius: 50%;
 
   /* vegetables */
 
-  body {
+  /* body {
     --accent: #8855ff;
     width: 100vw;
     height: 100vh;
@@ -80,7 +80,7 @@ border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
   
   .window {
     width: 480px;
@@ -103,8 +103,6 @@ border-radius: 50%;
     border-bottom-right-radius: 0;
     border-bottom: 1px solid #eeeeee;
     height: 44px;
-   
-  
   }
   
   .tabs {
@@ -212,4 +210,20 @@ border-radius: 50%;
     cursor: default;
     pointer-events: none;
   }
+  /* end vegetables */
+
+/* init animation   */
+  .item {
+    border-radius:20px;
+    width: 200px;
+    height:200px;
+    padding:30px;
+    background: linear-gradient(180deg, #05f, #09f);
+    overflow: visible;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  /* end animation */
   
